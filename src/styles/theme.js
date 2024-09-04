@@ -1,12 +1,9 @@
 const theme = {
     colors: {
-      background: '#2E3440',
-      backgroundLight: '#3B4252',
-      text: '#D8DEE9',
-      textLight: '#E5E9F0',
-      primary: '#81A1C1',
-      primaryDark: '#5E81AC',
-      cardBackground: '#434C5E',
+      background: '#0B0C10',
+      text: '#C5C6C7',
+      cyan: '#66FCF1',
+      cardBackground: '#1F2833',
     },
   };
   

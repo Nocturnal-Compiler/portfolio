@@ -6,6 +6,7 @@ const HeaderContainer = styled.header`
   padding: 20px;
   display: flex;
   justify-content: space-between;
+  background-color: ${({ theme }) => theme.colors.background};
 `;
 
 const Logo = styled.h1`
@@ -23,14 +24,14 @@ const Link = styled(motion.a)`
   text-decoration: none;
   font-size: 18px;
   &:hover {
-    color: ${({ theme }) => theme.colors.primary};
+    color: ${({ theme }) => theme.colors.cyan};
   }
 `;
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <Logo>YourName</Logo>
+      <Logo>Vignan Chowdary</Logo>
       <NavLinks>
         <Link whileHover={{ scale: 1.1 }} href="#about">About</Link>
         <Link whileHover={{ scale: 1.1 }} href="#projects">Projects</Link>
